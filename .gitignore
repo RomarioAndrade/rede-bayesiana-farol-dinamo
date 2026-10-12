@@ -1,0 +1,108 @@
+## Arquivos auxiliares do LaTeX
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Saídas intermediárias
+*.dvi
+*.xdv
+*-converted-to.*
+
+## Bibliografia
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+## Build tools
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*.rubbercache
+rubber.cache
+
+## Pacotes comuns
+# beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+# glossaries / índices / nomenclatura
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.ist
+*.alg
+*.idx
+*.ilg
+*.ind
+*.nlg
+*.nlo
+*.nls
+# hyperref / outros
+*.brf
+*.loa
+*.lol
+*.thm
+*.xwm
+*.maf
+*.mtc
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
+*.listing
+# minted
+_minted*
+*.pyg
+# tikz externalize
+*.auxlock
+*.dpth
+*.md5
+# todonotes
+*.tdo
+# algorithms
+*.loe
+# svg
+svg-inkscape/
+# pythontex
+*.pytxcode
+pythontex-files-*/
+
+## Editores
+*.bak
+*.sav
+*.swp
+*~
+.vscode/
+.idea/
+*.sublime-workspace
+# TeXstudio / Texmaker
+*.backup
+*.tps
+# WinEdt
+*.bak
+# Arquivos do sistema
+Thumbs.db
+.DS_Store
+
+## Diretório de build (latexmk -outdir)
+build/
+out/
